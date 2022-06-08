@@ -127,6 +127,7 @@
 .intro p{
     font-family: 'Source Code Pro', monospace;
     margin: 12px;
+    font-weight: bold;
 }
 
 .contactform form div{
