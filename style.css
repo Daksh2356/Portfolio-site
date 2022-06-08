@@ -130,6 +130,15 @@
     font-weight: bold;
 }
 
+.projectcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+.projectcontainer p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+    font-weight: bold;
+}
 .contactform form div{
     padding: 10px 0;
     display: flex;
