@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
-.sidebar{
-    background-color: rgb(234, 218, 218);
-    width: 261px;
+
+.sidebar {
+    background-color: #bfd3e4ad;
+    width: 200px;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
 }
@@ -19,8 +20,8 @@
 
 .sidebar nav li {
     list-style: none;
-    font-size: 30px;
-    padding : 33px 0 ;
+    font-size: 20px;
+    padding: 33px 0;
 }
 
 .sidebar nav li a {
@@ -28,21 +29,29 @@
     color: black;
 }
 
-.main{
-    /* background-color: rgb(25, 162, 66); */
+.main {
+    /* background-color:#94aff8; */
     width: 90vw;
 }
 
-.container{
+.container {
     display: flex;
 
 }
 
-.projectcontainer h1{
+.resume h1,
+.resume h2 {
     font-family: 'Fira Sans', sans-serif;
     margin: 12px;
 }
-.projectcontainer p{
+
+
+
+.edu ul {
+    list-style: none;
+}
+
+.edu ul li {
     font-family: 'Source Code Pro', monospace;
     margin: 12px;
     font-weight: bold;

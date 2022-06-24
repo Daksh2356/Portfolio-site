@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap");
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
-.sidebar{
-    background-color: rgb(234, 218, 218);
-    width: 261px;
-    font-family: 'Fira Sans', sans-serif;
+
+.sidebar {
+    background-color: #bfd3e4ad;
+    width: 200px;
+    font-family: "Fira Sans", sans-serif;
     height: 100vh;
 }
 
 .sidebar nav {
     padding: 45px;
-
 }
 
 .sidebar nav li {
     list-style: none;
-    font-size: 30px;
-    padding : 33px 0 ;
+    font-size: 20px;
+    padding: 33px 0;
 }
 
 .sidebar nav li a {
@@ -28,53 +28,75 @@
     color: black;
 }
 
-.main{
-    /* background-color: rgb(25, 162, 66); */
+.main {
+    /* background-color:#94aff8; */
     width: 90vw;
 }
 
-.container{
+.container {
     display: flex;
-
 }
 
-.intro h1, .intro h2{
-    font-family: 'Fira Sans', sans-serif;
-    margin: 12px;
-}
-
-.intro p{
-    font-family: 'Source Code Pro', monospace;
-    margin: 12px;
+.intro h1,
+.intro h2 {
+    font-family: "Fira Sans", sans-serif;
+    margin: 22px;
     font-weight: bold;
 }
 
-.skillcontainer{
-    padding: 12px;
+.intro p {
+    font-family: "Fira Sans", sans-serif;
+    margin: 22px;
+    font-size: 17px;
+    background-color: aliceblue;
+
 }
 
-.skill{
+.skillcontainer {
+    padding: 5px;
+    margin: 22px;
+}
+
+.skill {
     width: 23px;
-    height:6px;
+    height: 6px;
     border: 2px solid black;
-    background-color: rgb(81, 186, 222);
+    background-color: #bfd3e4ad;
 }
 
-.skillItem{
+.skillItem {
     display: flex;
     align-items: center;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: bold;
 }
 
-.hundred{
+.hundred {
     width: 265px;
+    background-color: dodgerblue;
 }
 
-.fifty{
-width: 125px;
+.hundred:hover {
+    width: 265px;
+    background-color: #bfd3e4ad;
 }
 
-.t5{
+.fifty {
+    width: 125px;
+    background-color: dodgerblue;
+}
+
+.fifty:hover {
+    width: 125px;
+    background-color: #bfd3e4ad;
+}
+
+.t5 {
+    background-color: dodgerblue;
     width: 75px;
+}
+
+.t5:hover {
+    width: 75px;
+    background-color: #bfd3e4ad;
 }
