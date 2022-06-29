@@ -7,10 +7,12 @@
 }
 
 .sidebar {
-    background-color: #bfd3e4ad;
-    width: 200px;
-    font-family: 'Fira Sans', sans-serif;
+    background-color: cornflowerblue; 
+    position: absolute;
+    /* width: 200px; */
+    font-family: "Fira Sans", sans-serif;
     height: 100vh;
+    transition: 0.3s ease-in;
 }
 
 .sidebar nav {
@@ -29,9 +31,25 @@
     color: black;
 }
 
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
 .main {
-    /* background-color:#94aff8; */
+    /* background-color: cornflowerblue;#94aff8; */
     width: 90vw;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 115px;
 }
 
 .container {
@@ -40,9 +58,8 @@
 }
 
 .projectcontainer {
-    margin: 22px;
-    padding: 5px;
-    margin-top: 80px;
+    margin: 40px 160px;
+    /* padding: 40px; */
 }
 
 .projectcontainer h1 {

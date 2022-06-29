@@ -7,10 +7,12 @@
 }
 
 .sidebar {
-    background-color: #bfd3e4ad;
-    width: 200px;
-    font-family: 'Fira Sans', sans-serif;
+    background-color: cornflowerblue;
+    position: absolute;
+    /* width: 200px; */
+    font-family: "Fira Sans", sans-serif;
     height: 100vh;
+    transition: 0.3s ease-in;
 }
 
 .sidebar nav {
@@ -29,9 +31,25 @@
     color: black;
 }
 
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
 .main {
-    background-color: #94aff8;
+    /* background-color:#94aff8; */
     width: 90vw;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 115px;
 }
 
 .container {
@@ -62,15 +80,16 @@
 }
 
 .contactform {
-
+    
     font-family: 'Fira Sans', sans-serif;
-    padding: 0 34px;
-    padding-top: 144px;
+    padding: 0 10px;
+    padding-top: 55px;
+    margin: 0 25px;
 }
 
 .contactform h1 {
-    font-family: 'Source Code Pro', monospace;
-    padding: 12px 0;
+    font-family: "Source Code Pro", monospace;
+    padding: 38px;
 }
 
 .contactform form div {
@@ -80,10 +99,13 @@
 }
 
 .contactform form div input {
-    width: 26vw;
+    /* width: 26vw; */
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
+}
+.contactform form {
+    margin: 0 40px;
 }
 
 #emailHelp {
@@ -101,4 +123,11 @@
 #form-check input {
     width: 24px;
     margin: 3px 0;
+}
+
+@media (max-width:1615px){
+
+    .contactform{
+        margin: 40px 0 40px 150px;
+    }
 }
