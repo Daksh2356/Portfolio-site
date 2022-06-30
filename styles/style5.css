@@ -9,7 +9,6 @@
 .sidebar {
     background-color: cornflowerblue;
     position: absolute;
-    /* width: 200px; */
     font-family: "Fira Sans", sans-serif;
     height: 100vh;
     transition: 0.3s ease-in;
@@ -37,7 +36,6 @@
 }
 
 .main {
-    /* background-color:#94aff8; */
     width: 90vw;
 }
 
@@ -46,6 +44,11 @@
     cursor: pointer;
     top: 10px;
     left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .cross{
@@ -82,14 +85,12 @@
 .contactform {
     
     font-family: 'Fira Sans', sans-serif;
-    padding: 0 10px;
-    padding-top: 55px;
-    margin: 0 25px;
+    margin: 88px 190px;
 }
 
 .contactform h1 {
     font-family: "Source Code Pro", monospace;
-    padding: 38px;
+    padding: 0 40px;
 }
 
 .contactform form div {
@@ -99,7 +100,6 @@
 }
 
 .contactform form div input {
-    /* width: 26vw; */
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
@@ -125,9 +125,9 @@
     margin: 3px 0;
 }
 
-@media (max-width:1615px){
+@media (max-width:1200px){
 
     .contactform{
-        margin: 40px 0 40px 150px;
+        margin: 50px 8px;
     }
 }

@@ -9,7 +9,6 @@
 .sidebar {
     background-color: cornflowerblue; 
     position: absolute;
-    /* width: 200px; */
     font-family: "Fira Sans", sans-serif;
     height: 100vh;
     transition: 0.3s ease-in;
@@ -37,7 +36,6 @@
 }
 
 .main {
-    /* background-color: cornflowerblue;#94aff8; */
     width: 90vw;
 }
 
@@ -46,6 +44,11 @@
     cursor: pointer;
     top: 10px;
     left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .cross{
@@ -58,8 +61,7 @@
 }
 
 .projectcontainer {
-    margin: 40px 160px;
-    /* padding: 40px; */
+    margin: 88px 190px;
 }
 
 .projectcontainer h1 {
@@ -72,4 +74,11 @@
     margin: 12px;
     font-weight: bold;
     font-size: larger;
+}
+
+@media (max-width:1200px){
+
+    .projectcontainer{
+        margin: 50px 8px;
+    }
 }

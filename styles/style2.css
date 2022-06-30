@@ -7,9 +7,8 @@
 }
 
 .sidebar {
-    background-color: cornflowerblue;
     position: absolute;
-    /* width: 200px; */
+    background-color: cornflowerblue;
     font-family: "Fira Sans", sans-serif;
     height: 100vh;
     transition: 0.3s ease-in;
@@ -36,7 +35,6 @@
 }
 
 .main {
-    /* background-color:#94aff8; */
     width: 90vw;
 }
 
@@ -47,6 +45,11 @@
     left: 10px;
 }
 
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .cross{
     margin-left: 115px;
 }
@@ -55,7 +58,7 @@
     display: flex;
 }
 .intro{
-    margin: 10px 160px;
+    margin: 30px 160px;
 }
 .intro h1,
 .intro h2 {
@@ -119,4 +122,18 @@
 .t5:hover {
     width: 75px;
     background-color: cornflowerblue;
+}
+
+@media (max-width:1200px){
+
+    .intro{
+        margin: 50px 8px;
+    }
+}
+
+@media (min-width:280px) and (max-width:540px){
+    .sidebar{
+        height: 155vh;
+    }
+
 }

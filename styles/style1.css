@@ -9,7 +9,6 @@
 .sidebar {
     position: absolute;
     background-color: cornflowerblue;
-    /* width: 200px; */
     font-family: "Fira Sans", sans-serif;
     height: 100vh;
     transition: 0.3s ease-in;
@@ -36,7 +35,6 @@
 }
 
 .main {
-    /* background-color:#94aff8; */
     width: 90vw;
 }
 
@@ -47,8 +45,14 @@
     left: 10px;
 }
 
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .cross{
     margin-left: 115px;
+    margin-top: 10px;
 }
 
 .container {
@@ -56,10 +60,9 @@
 }
 
 .infoContainer {
-    /* background-color:rgb(226, 235, 240); */
     width: 80vw;
     height: 58vh;
-    margin: 144px 0 144px 170px;
+    margin: 144px 190px;
     display: flex;
     justify-content: space-around;
 }
@@ -122,14 +125,20 @@
 
     .infoContainer{
         flex-wrap: wrap;
-    } 
+        margin: 50px 58px;
 
-    .devInfo{
-        font-size: 10px;
+    }
+
+    .devPic{
+        margin: 35px 125px 35px 10px;
     }
 
     .devPic img{
-        margin-top: 24px;
+        height: 20vh;
+    }
+
+    .devInfo{
+        font-size: 10px;
     }
 
     .btn{
